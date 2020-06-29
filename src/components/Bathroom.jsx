@@ -5,22 +5,23 @@ class Bathroom extends Component {
     return (
       <div className="contain-all">
         <div className="title-container">
-         <h1 onClick={this.props.showbathroom}>Bathroom</h1>
+         <h1 onClick={this.props.showBathroom}>Bathroom</h1>
         </div>
-        <div className={this.props.displaybathroom ? "checklist-container-show" : "checklist-container"}>
+        <div className={this.props.displayBathroom ? "checklist-container-show" : "checklist-container"}>
           <ul>
-            <li className="list-item">Running water?</li>
-            <li className="list-item">Water temperature changes?</li>
-            <li className="list-item">Faucet moves?</li>
-            <li className="list-item">The lights work?</li>
-            <li className="list-item">Walls are painted?</li>
-            <li className="list-item">Garbage disposal?</li>
-            <li className="list-item">Enough cabinet space?</li>
-            <li className="list-item">Does the stove work?</li>
-            <li className="list-item">Does the fridge/freezer work?</li>
-            <li className="list-item">Does the microwave work?</li>
-            <li className="list-item">Are there signs of mice/rats/cockroaches?</li>
+            <li className="list-item">Does the toilet flush?</li>
+            <li className="list-item">Does the shower/tub have running water?</li>
+            <li className="list-item">How is the water temperature?</li>
+            <li className="list-item">How is the water pressure?</li>
+            <li className="list-item">Is there cabinet space?</li>
+            <li className="list-item">Do the outlets work?</li>
+            <li className="list-item">Do the lights work?</li>
+            <li className="list-item">Does the tub plug work?</li>
+            <li className="list-item">Are there signs of mold?</li>
+            <li className="list-item">Is there tile damage?</li>
+            <li className="list-item">Is the shower rod broken?</li>
           </ul>
+          <button type="button" className="btn btn-success">Complete?</button>
         </div>
       </div>
     )

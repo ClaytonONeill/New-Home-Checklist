@@ -21,6 +21,7 @@ class Kitchen extends Component {
             <li className="list-item">Does the microwave work?</li>
             <li className="list-item">Are there signs of mice/rats/cockroaches?</li>
           </ul>
+          <button type="button" className="btn btn-success">Complete?</button>
         </div>
       </div>
     )

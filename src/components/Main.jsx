@@ -8,7 +8,7 @@ import Bathroom from './Bathroom.jsx';
 class Main extends Component {
   state = {
     displayKitchen: false,
-    displayBathroom: false,
+    displayBathroom: false
   }
 
   showKitchen = () => {
@@ -35,7 +35,8 @@ class Main extends Component {
             displayKitchen={this.state.displayKitchen}
           />
           <Bathroom
-
+            showBathroom={this.showBathroom}
+            displayBathroom={this.state.displayBathroom}
           />
         </div>
       </div>

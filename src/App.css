@@ -37,7 +37,7 @@
     border-radius: 5px;
     padding: 1em;
     font-size: 1.3em;
-    box-shadow: -2px 1px 2px black;
+    box-shadow: 0px 0px 3px black;
   }
 
   .list-item {
@@ -58,6 +58,10 @@
 
   .title-container h1 {
     margin: 10px;
+  }
+
+  .btn-success {
+    margin: 0 1em 1em 1em;
   }
 
 
