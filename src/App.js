@@ -1,23 +1,17 @@
+// INITIAL MODULES
 import React, { Component } from 'react';
 
+// STYLES
+import './App.css';
+
+// COMPONENTS
+import Main from './components/Main.jsx'
+
 class App extends Component {
-  state = {
-    view: {
-      page: 'home',
-      pageTitle: 'Home Page'
-    }
-  }
-
-
-  handleView = (view) =>  {
-
-  }
-
-
   render () {
     return (
-      <div>
-        <h1>This is the home page</h1>
+      <div className="app-container">
+        <Main />
       </div>
     );
   }

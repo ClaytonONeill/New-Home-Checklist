@@ -1,8 +1,64 @@
 @media (max-width: 500px) {
 
-body {
-  background: red;
-}
+  body {
+    /* background: #12e030; */
+  }
 
-  
+/* CHECKLIST STYLE */
+
+  .home-h1-contain {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  .contain-all  {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+
+  .checklist-container  {
+    display: none;
+  }
+
+  .checklist-container-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .checklist-container-show ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .checklist-container-show li {
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1.3em;
+    box-shadow: -2px 1px 2px black;
+  }
+
+  .list-item {
+    margin: .5em;
+  }
+
+  .checkMe {
+    border: 1px solid rgba(0, 0, 0, .4);
+    width: 2em;
+    height: 2em;
+    margin: .2em 1em;
+  }
+
+  .title-container {
+    text-align: center;
+    margin: 1.5em;
+  }
+
+  .title-container h1 {
+    margin: 10px;
+  }
+
+
 }
